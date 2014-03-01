@@ -1,0 +1,45 @@
+# Finding Kaprekar numbers
+
+Finding [Kaprekar Numbers](https://en.wikipedia.org/wiki/Kaprekar_number) -- a Ruby kata!
+
+> In mathematics, a Kaprekar number for a given base is a non-negative
+  integer, the representation of whose square in that base can be
+  split into two parts that add up to the original number again. For
+  instance, 45 is a Kaprekar number, because 45 squared is 2025 and 20+25 = 45.
+  The Kaprekar numbers are named after D. R. Kaprekar.
+
+## Solution strategy
+
+Given a number:
+
+1. Generate all possible 2-part splits of the digits comprising the number
+2. Map & reduce (sum up) each of the above
+3. Is the square of our number in the array?
+
+> _"... in functional programming in general, we talk a lot about how we should make as much
+  of our code just be transformations on values._
+
+-- [20:30] Reid Draper on [Cognicast #45](http://thinkrelevance.com/blog/2013/11/11/reid-draper-cognicast-episode-045)
+
+
+## License (MIT)
+
+Copyright (c) [2014] [James Abbott]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
