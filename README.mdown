@@ -19,7 +19,7 @@ Given a number:
 > _"... in functional programming in general, we talk a lot about how we should make as much
   of our code just be transformations on values._
 
--- [20:30] Reid Draper on [Cognicast #45](http://thinkrelevance.com/blog/2013/11/11/reid-draper-cognicast-episode-045)
+> -- [20:30] Reid Draper on [Cognicast #45](http://thinkrelevance.com/blog/2013/11/11/reid-draper- cognicast-episode-045)
 
 
 ## License (MIT)
